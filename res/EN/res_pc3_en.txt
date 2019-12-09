@@ -1,0 +1,500 @@
+IDS_COMPANY
+oddgravity
+IDS_COMPANY_WEBSITE
+http://www.oddgravity.de
+IDS_APPNAME_FULL
+Playlist Creator
+IDS_APPNAME_SHORT
+Playlist Creator
+IDS_APPNAME_TINY
+Playlist Creator
+IDS_VERSION
+Version
+IDS_REVISION
+Revision
+IDS_COPYRIGHT
+Copyright © 2003-2010 oddgravity.
+IDS_ALL_RIGHTS_RESERVED
+All rights reserved.
+IDS_LANGUAGE_DE
+German
+IDS_LANGUAGE_EN
+English
+IDS_OK
+&Ok
+IDS_CANCEL
+&Cancel
+IDS_NEXT
+&Next >
+IDS_BACK
+< &Back
+IDS_ADD
+&Add
+IDS_ADD_ARROW_LEFT
+<< &Add
+IDS_ADD_ARROW_RIGHT
+&Add >>
+IDS_REMOVE
+&Remove
+IDS_REMOVE_ARROW_LEFT
+<< &Remove
+IDS_REMOVE_ARROW_RIGHT
+&Remove >>
+IDS_DELETE
+&Delete
+IDS_YES
+&Yes
+IDS_YES_TO_ALL
+All Yes
+IDS_NO
+&No
+IDS_NO_TO_ALL
+All No
+IDS_HELP
+Help
+IDS_NEW
+&New
+IDS_MB_CAPTION_ATTENTION
+Attention
+IDS_MB_CAPTION_WARNING
+Warning
+IDS_MB_CAPTION_ERROR
+Error
+IDS_MB_CAPTION_INFO
+Info
+IDS_MB_CAPTION_QUESTION
+Question
+IDS_COLOR_PICKER_POPUP_DEFAULT
+Default Color
+IDS_COLOR_PICKER_POPUP_CUSTOM
+Custom Color...
+IDS_GB_PLAYLIST_CONTENT
+Playlist content
+IDS_PLAYLIST_CONTENT_INFO
+Add the desired files by clicking on the buttons on the right side or by using drag and drop from Windows Explorer:
+IDS_PLAYLIST_COLUMN_FILENAME
+Filename
+IDS_PLAYLIST_COLUMN_TYPE
+Type
+IDS_PLAYLIST_COLUMN_FOLDER
+Folder
+IDS_BTN_ADD_FOLDER
+Add folder
+IDS_BTN_ADD_FILES
+Add files
+IDS_BTN_ADD_PLAYLISTS
+Add playlist
+IDS_BTN_MOVE_TO_TOP
+Move to the beginning
+IDS_BTN_MOVE_UP
+Move up
+IDS_BTN_MOVE_DOWN
+Move down
+IDS_BTN_MOVE_TO_BOTTOM
+Move to the end
+IDS_BTN_DELETE_SEL_ITEMS
+Remove selected items
+IDS_BTN_DELETE_ALL_ITEMS
+Remove all items
+IDS_GB_PLAYLIST_CREATION
+Playlist creation
+IDS_PLAYLIST_SAVE_LOCATION
+Save location:
+IDS_BTN_SELECT_PLAYLIST_SAVE_LOCATION
+Select save location
+IDS_PLAYLIST_NAME_AND_TYPE
+Name and type:
+IDS_BTN_CREATE_PLAYLIST
+&Create Playlist
+IDS_TOOLBAR_NEW_PLAYLIST
+ New  
+IDS_TOOLBAR_OPEN_PLAYLIST
+ Open  
+IDS_TOOLBAR_SETTINGS
+ Settings  
+IDS_TOOLBAR_HELP
+ Help  
+IDS_TOOLBAR_ABOUT
+ About  
+IDS_PROPSHEET_SETTINGS_TITLE
+Settings
+IDS_PROPPAGE_GENERAL_SETTINGS_TITLE
+General Settings
+IDS_PROPPAGE_USER_INTERFACE_TITLE
+User Interface
+IDS_PROPPAGE_PLAYLIST_TITLE
+Playlist Details
+IDS_PROPPAGE_FILE_TYPES_TITLE
+File Types
+IDS_PROPPAGE_EXT_INFO_TITLE
+Extended Information
+IDS_PROPPAGE_DONATIONS_TITLE
+Donations
+IDS_SETTINGS_GENERAL_GROUP_LANGUAGE
+Language settings
+IDS_SETTINGS_GENERAL_LANGUAGE_INFO
+Currently selected language:
+IDS_SETTINGS_GENERAL_GROUP_HIDDEN_MESSAGES
+Hidden messages
+IDS_SETTINGS_GENERAL_HIDDEN_MESSAGES_INFO
+By clicking on the button below all messages are displayed again which were hidden by clicking on "Do not display this message again".
+IDS_SETTINGS_GENERAL_BTN_HIDDEN_MESSAGES
+Show &hidden messages again...
+IDS_SETTINGS_GENERAL_ASK_SHOW_HIDDEN_MESSAGES
+Do you want to display the hidden messages again?\n\nYou can hide the messages again later.
+IDS_SETTINGS_GENERAL_GROUP_RESET_SETTINGS
+Reset settings
+IDS_SETTINGS_GENERAL_RESET_SETTINGS_INFO
+By clicking on the button below you can reset all settings to the state when the program was installed. Attention - all personal settings will be lost!
+IDS_SETTINGS_GENERAL_BTN_RESET_SETTINGS
+&Reset settings...
+IDS_SETTINGS_GENERAL_GROUP_UPDATE
+Update
+IDS_SETTINGS_GENERAL_AUTO_UPDATE_CHECK
+Automatically check for newer versions every week
+IDS_SETTINGS_GENERAL_BTN_CHECK_NOW
+&Check now
+IDS_SETTINGS_UI_GROUP_GENERAL
+General settings
+IDS_SETTINGS_UI_SINGLE_INSTANCE
+Allow only one instance of the program running
+IDS_SETTINGS_UI_TRANSPARENCY
+Turn main window semi-transparent if unfocused
+IDS_SETTINGS_UI_SNAP_TO_SCREEN_BORDER
+Snap to screen border
+IDS_SETTINGS_UI_PLAY_SOUND_SUCCESS
+Play sound when playlist was created successfully
+IDS_SETTINGS_UI_GROUP_PLAYLIST
+Playlist
+IDS_SETTINGS_UI_SHOW_GRIDLINES
+Show gridlines
+IDS_SETTINGS_UI_SHOW_ALTERNATE_ROW_COLOR
+Display items with alternating row color
+IDS_SETTINGS_UI_HIGHLIGHT_MISSING_ITEMS
+Highlight items which refer to nonexistent files
+IDS_SETTINGS_PLAYLIST_GROUP_NEW_ENTRIES
+Adding new playlist entries
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_INFO
+Specify where new playlist entries are inserted into the list. This setting will NOT be applied for entries that are added to the playlist using drag and drop.
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_TOP
+At the beginning of the list
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_BOTTOM
+At the end of the list
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_BEFORESEL
+Before the first selected entry (or at the end)
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_AFTERSEL
+After the first selected entry (or at the end)
+IDS_SETTINGS_PLAYLIST_SORT_NEW_ITEMS
+Insert new entries in ascending order
+IDS_SETTINGS_PLAYLIST_GROUP_SAVE_MODE
+Saving playlist entries
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_INFO
+Do you want to save the playlist entries absolute or relative?
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_ABSOLUTE
+Absolute (e.g. "C:\MyMusic\MySong.mp3")
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_ABSOLUTE_NODRIVE
+Absolute, without drive (e.g. "\MyMusic\MySong.mp3")
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_RELATIVE
+Relative (e.g. "..\MyMusic\MySong.mp3")
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_SLASH_STYLE
+Use forward slashes instead of back slashes
+IDS_SETTINGS_PLAYLIST_GROUP_MISC
+Miscellaneous
+IDS_SETTINGS_PLAYLIST_MISC_AUTO_NAME
+Set the playlist name to the name of the folder that was added at last
+IDS_SETTINGS_PLAYLIST_MISC_AUTO_FOLDER
+Set the playlist save location to the folder that was added at last
+IDS_SETTINGS_PLAYLIST_MISC_AUTO_CLEAR
+Clear the playlist after it has been created successfully
+IDS_SETTINGS_FILE_TYPES_GROUP
+Choose active file types
+IDS_SETTINGS_FILE_TYPES_INFO
+All file types that are in the list of active file types can be added to the playlist. If you miss a certain file type just enter it in the text box and click on the "New" button.
+IDS_SETTINGS_FILE_TYPES_ACTIVE
+Active
+IDS_SETTINGS_FILE_TYPES_INACTIVE
+Inactive
+IDS_SETTINGS_FILE_TYPES_ADD
+Add selected file type
+IDS_SETTINGS_FILE_TYPES_REMOVE
+Remove selected file type
+IDS_SETTINGS_FILE_TYPES_NEW_TITLE
+Create new file type:
+IDS_SETTINGS_FILE_TYPES_DELETE_TITLE
+Delete file type:
+IDS_SETTINGS_FILE_TYPES_RESET_TITLE
+Reset file types:
+IDS_SETTINGS_FILE_TYPES_RESET
+Re&set...
+IDS_SETTINGS_FILE_TYPES_ASK_RESET
+Do you really want to reset the active and inactive file types?
+IDS_SETTINGS_FILE_TYPES_OPEN_PLAYLISTS
+Apply list of active file types also when opening playlists
+IDS_SETTINGS_EXT_INFO_GROUP_PROCESSING
+Processing of extended information
+IDS_SETTINGS_EXT_INFO_PROCESSING_INFO
+Decide whether to create a simple playlist (i.e. plain file list) or a playlist with extended information.
+IDS_SETTINGS_EXT_INFO_WRITE_EXT_INFO
+Write extended information
+IDS_SETTINGS_EXT_INFO_READ_TAGS
+Readout data from tags (slow)
+IDS_SETTINGS_EXT_INFO_GROUP_TITLE_FORMAT
+Title format
+IDS_SETTINGS_EXT_INFO_TITLE_MASK_INFO
+Here you can define the title format of playlists with extended information. You may enter any text or create dynamic titles using the title variables.
+IDS_SETTINGS_EXT_INFO_TITLE_MASK
+Title mask:
+IDS_SETTINGS_EXT_INFO_TITLE_MASK_PREVIEW
+Preview:
+IDS_SETTINGS_EXT_INFO_TITLE_VARIABLES
+Title variables:
+IDS_SETTINGS_EXT_INFO_VARIABLE_ARTIST
+Artist
+IDS_SETTINGS_EXT_INFO_VARIABLE_TITLE
+Title
+IDS_SETTINGS_EXT_INFO_VARIABLE_ALBUM
+Album
+IDS_SETTINGS_EXT_INFO_VARIABLE_YEAR
+Year
+IDS_SETTINGS_EXT_INFO_VARIABLE_GENRE
+Genre
+IDS_SETTINGS_EXT_INFO_VARIABLE_TRACK
+Track #
+IDS_SETTINGS_EXT_INFO_VARIABLE_SAMPLE_TITLE
+Example:
+IDS_SETTINGS_EXT_INFO_VARIABLE_SAMPLE
+%3 - %2  =  <Album> - <Title>
+IDS_SETTINGS_DONATIONS_GROUP_WHY
+Why should I donate?
+IDS_SETTINGS_DONATIONS_WHY_INFO
+This program was developed in my spare time. However, I release it as freeware as my gift to the online community. This means that the program is free of charge and there are no functional restrictions at all.\n\nYou can show your appreciation for <APPLICATION/> and support future development by donating!\n\nThank you!
+IDS_SETTINGS_DONATIONS_GROUP_HOW
+How can I donate?
+IDS_SETTINGS_DONATIONS_HOW_INFO
+Visit my website for further information or follow the direct link to my PayPal donation site (256-bit AES encryption).
+IDS_SETTINGS_DONATIONS_BTN_WEBSITE
+Visit Website...
+IDS_URL_DONATIONS_WEBSITE
+http://www.oddgravity.de/donations.php
+IDS_SETTINGS_DONATIONS_BTN_PAYPAL
+Visit PayPal...
+IDS_URL_DONATIONS_PAYPAL
+https://www.paypal.com/xclick/business=donation%40oddgravity.de&item_name=Donation+for+<APPLICATION/>&no_shipping=1&cn=Message+for+oddgravity&tax=0&currency_code=USD&lc=US
+IDS_SETTINGS_DONATIONS_GROUP_USAGE
+Do I use this program frequently?
+IDS_SETTINGS_DONATIONS_USAGE_INFO1
+Until now you have created <TOTAL_PLAYLISTS/> playlists with a total of <TOTAL_SONGS/> songs.
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_PHASE1
+Come on, create more playlists and stop hanging around here!
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_PHASE2
+You seem to like this program. Sit back for a quiet minute and think about a donation.
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_PHASE3
+You are using this program quite frequently. I think you agree with me that I deserve a donation. :-)
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_STRANGE_VALUES
+If you ask me someone fiddled with the registry! :-)
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_IS_SUPPORTER
+Many thanks for your donation! Please enjoy the program.
+IDS_SELECT_FOLDER_TITLE
+Select folder
+IDS_SELECT_FILES_TITLE
+Select files
+IDS_SELECT_PLAYLISTS_TITLE
+Select playlist
+IDS_SELECT_SONG_FOLDER_INFO
+Please select the folder which you want to add to the playlist:
+IDS_SELECT_PLAYLIST_FOLDER_INFO
+Please select the playlist save location:
+IDS_FILES
+Files
+IDS_PLAYLIST_FILES
+Playlist Files
+IDS_ALL_FILES
+All files
+IDS_MB_DELETE_ALL_ITEMS
+Do you really want to remove all items from the playlist?\n\nAttention: This operation cannot be undone!
+IDS_MB_ERR_NO_ACTIVE_FILE_TYPES
+You cannot add any file to the playlist because there is\nno active file type selected.\n\nPlease add at least one active file type to the list\nat "Settings >> File Types".
+IDS_MB_LAST_ACTIVE_FILE_TYPE_REMOVED
+If there are no active file types you will not be able to add\nanymore files to the playlist.\n\nPlease add at least one entry to the list of active file types.
+IDS_MB_ERR_EMPTY_NEW_FILE_TYPE
+Please enter the name of the file type\nyou want to add to the list.
+IDS_MB_ERR_INVALID_FILE_TYPE
+The file type you entered contains invalid characters.\n\nYou cannot use the following characters: \ / . : * ? " < > |
+IDS_MB_ERR_FILE_TYPE_EXISTS
+The file type you entered already exists.
+IDS_MB_ERR_IS_PLAYLIST_FILE_TYPE
+You cannot add playlist file types to the list of active or inactive file types.\n\nThese file types are always active and are handled internally by the application.\nPlaylist file types are for example 'pls' or 'm3u'.
+IDS_MB_ERR_NO_FILE_TYPE_SELECTED
+Please select the inactive file type you want\nto delete from the list.
+IDS_MB_RESET_SETTINGS
+Do you really want to reset all settings?\n\nAttention: You will lose all your personal settings!
+IDS_CREATEDLG_TITLE
+Creating the playlist
+IDS_CREATEDLG_DETAIL_TITLE
+The playlist you assembled will now be created
+IDS_CREATEDLG_CONTENT
+Depending on the size of the playlist this process can vary from a few seconds to some minutes. Please wait...
+IDS_CREATEDLG_DONATIONS_LINK
+Thanks for using <APPLICATION/>. You can show your appreciation and\nsupport future development by donating!
+IDS_CREATEDLG_STATUS_TITLE
+Status of the creation:
+IDS_CREATEDLG_STEP_PREPARE
+Last preparations are done
+IDS_CREATEDLG_STEP_CREATE
+Creating the playlist
+IDS_CREATEDLG_STEP_FINISH
+Finishing the creation of the playlist
+IDS_CREATEDLG_CHECK_AUTOCLOSE
+Close dialog after successful creation
+IDS_CREATEDLG_CREATION_CANCELLED
+The creation of the playlist was cancelled
+IDS_CREATEDLG_PROGRESS_INFO_PREPARE
+Last preparations are done
+IDS_CREATEDLG_PROGRESS_INFO_CREATE
+<NUMBER/> of <TOTAL/> files processed
+IDS_CREATEDLG_PROGRESS_INFO_FINISH
+Completing the creation of the playlist
+IDS_CREATEDLG_PROGRESS_INFO_COMPLETED
+Playlist was created successfully
+IDS_MB_ERR_CREATE_PLAYLIST
+An error occured while creating the playlist.
+IDS_MB_ERR_INVALID_PLAYLIST_FORMAT
+An invalid playlist format was detected.\n\nPlease restart the application and repeat the operation.
+IDS_MB_ERR_CREATE_PLAYLIST_FOLDER
+The playlist folder could not be created.\n\nPlease close all other applications and repeat the operation.
+IDS_MB_ERR_OPEN_PLAYLIST_FILE
+The playlist file could not be created.\n\nPlease close all other applications and repeat the operation.
+IDS_MB_CANCEL_PLAYLIST_CREATION
+Do you really want to cancel the creation of the playlist?
+IDS_MB_EMPTY_PLAYLIST
+The playlist is currently empty.\n\nPlease add at least one entry to the playlist.
+IDS_MB_EMPTY_PLAYLIST_FOLDER
+Please select a save location for the playlist.
+IDS_MB_EMPTY_PLAYLIST_NAME
+Please enter a name for the playlist.
+IDS_MB_INVALID_PLAYLIST_NAME
+The name of the playlist contains invalid characters.\n\nYou cannot use the following characters: \ / . : * ? " < > |
+IDS_MB_PLAYLIST_FOLDER_DOES_NOT_EXIST
+The folder "<FOLDER/>"\nthat was selected as playlist save location does not exist.\n\nDo you want to create this folder?\n\nClick 'Yes' to continue or 'No' to select another playlist save location.
+IDS_MB_PLAYLIST_ALREADY_EXISTS
+The file "<FILEPATH/>" already exists.\n\nDo you want to overwrite this file?
+IDS_ABOUTBOX_CAPTION
+About <APPLICATION/>
+IDS_ABOUTBOX_BTN_WEBSITE
+&Visit Website...
+IDS_ITEM_COUNT
+<NUMBER/> items
+IDS_SELECTED_ITEM_COUNT
+<NUMBER/> items selected
+IDS_MB_ABORT
+&Abort
+IDS_MB_CANCEL
+Cancel
+IDS_MB_CONTINUE
+&Continue
+IDS_MB_DONOTASKAGAIN
+Do not ask this &question again
+IDS_MB_DONOTTELLAGAIN
+Do not show this &message again
+IDS_MB_DONOTSHOWAGAIN
+Do not show this &message again
+IDS_MB_HELP
+&Help
+IDS_MB_IGNORE
+&Ignore
+IDS_MB_IGNOREALL
+I&gnore All
+IDS_MB_NO
+&No
+IDS_MB_NOTOALL
+N&o to All
+IDS_MB_OK
+Ok
+IDS_MB_REPORT
+Re&port
+IDS_MB_RETRY
+&Retry
+IDS_MB_SKIP
+&Skip
+IDS_MB_SKIPALL
+S&kip All
+IDS_MB_TRYAGAIN
+&Try Again
+IDS_MB_YES
+&Yes
+IDS_MB_YESTOALL
+Y&es to All
+IDS_INFO_PLAYLIST_IS_EMPTY
+The playlist is currently empty.\nPlease add at least one entry to the playlist.
+IDS_POPUP_MOVE_TO_TOP
+Move to the beginning\tCtrl+Home
+IDS_POPUP_MOVE_UP
+Move up\tCtrl+Up
+IDS_POPUP_MOVE_DOWN
+Move down\tCtrl+Down
+IDS_POPUP_MOVE_TO_BOTTOM
+Move to the end\tCtrl+End
+IDS_POPUP_DELETE_SELECTED
+Remove selected items\tCtrl+Del
+IDS_POPUP_DELETE_ALL
+Remove all items\tCtrl+Shift+Del
+IDS_POPUP_REFRESH_ITEM_STATE
+Refresh status\tF5
+IDS_POPUP_SET_PLAYLIST_SAVE_LOCATION
+Use folder as playlist save location
+IDS_POPUP_SHUFFLE_PLAYLIST
+Shuffle playlist items
+IDS_SETTINGS_RESTART_NEEDED
+You need to restart <APPLICATION/> so that\nall changes can take effect.
+IDS_SYSMENU_ABOUT
+About <APPLICATION/>...
+IDS_ASK_CREATE_NEW_PLAYLIST
+Do you really want to create a new playlist?\n\nNote: Unsaved changes on the current playlist will be lost.
+IDS_ASK_OPEN_PLAYLIST
+Do you really want to open an existing playlist?\n\nNote: Unsaved changes on the current playlist will be lost.
+IDS_ASK_SHUFFLE_PLAYLIST
+Do you really want to shuffle the playlist items?
+IDS_WAITDLG_INFO_HEADING
+Please wait...
+IDS_WAITDLG_INFO_DETAILS
+The selected files are being added to the playlist.
+IDS_WAITDLG_PI_EXPAND_FOLDERS
+Collecting the files...
+IDS_WAITDLG_PI_OPEN_PLAYLIST
+Opening and importing the playlist...
+IDS_WAITDLG_PI_FILES_ADDED
+<NUMBER/> files already added...
+IDS_WAITDLG_CANCEL
+Do you really want to cancel?
+IDS_FOLDERDLG_ADD_RECURSIVE
+Add folder recursively
+IDS_TB_BTN_NEW_PLAYLIST
+New empty playlist
+IDS_TB_BTN_OPEN_PLAYLIST
+Open existing playlist
+IDS_SELECT_PLAYLIST
+Select playlist
+IDS_ASK_OPEN_OR_INSERT_PLAYLIST
+Do you want to open or insert the playlist?\n\nClick on 'Open' if you want to edit the playlist. Please note that the current playlist will be discarded!\n\nClick on 'Insert' to insert the content of the playlist at the selected position. This means that the content of the playlist is added to the current playlist.
+IDS_ASK_OPEN_OR_INSERT_PLAYLIST_CUSTOM_BUTTONS
+&Open\n&Insert\n&Cancel
+IDS_EDIT_PROMPT_PLAYLIST_NAME
+<Enter playlist name>
+IDS_TT_ITEM_DOESNT_EXIST
+Warning: This playlist item refers to a nonexistent file!
+IDS_UPDATEDLG_INFO_HEADING
+Checking for updates...
+IDS_UPDATEDLG_INFO_DETAILS
+Checking if a newer version of <APPLICATION/> is available.
+IDS_UPDATEDLG_YOUR_VERSION_INFO
+Your version is:
+IDS_UPDATEDLG_CURRENT_VERSION_INFO
+Current version is:
+IDS_UPDATECHECK_NETERROR
+Could not check for a newer version!
+IDS_UPDATECHECK_YOURUPTODATE
+You already have the latest version installed.
+IDS_UPDATECHECK_NEWERVERSIONAVAILABLE
+A new version of <APPLICATION/> is available. Please visit our website to download the latest version.
+IDS_UPDATECHECK_GOTO_WEBSITE_LINK
+Click here to go to the website

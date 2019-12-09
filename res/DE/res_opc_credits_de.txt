@@ -1,0 +1,10 @@
+Fotos / Grafiken
+  Oxygen Icons, http://www.oxygen-icons.org
+  stock.xchng - svilen001, http://www.sxc.hu/profile/svilen001
+  Tango Desktop Project, http://tango.freedesktop.org
+
+Tools / Frameworks
+  CxImage, http://www.xdp.it/cximage.htm
+  Inkscape, http://www.inkscape.org
+  MediaInfo, http://mediainfo.sourceforge.net
+  NSIS, http://nsis.sourceforge.net

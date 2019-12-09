@@ -1,0 +1,500 @@
+IDS_COMPANY
+oddgravity
+IDS_COMPANY_WEBSITE
+http://www.oddgravity.de
+IDS_APPNAME_FULL
+Playlist Creator
+IDS_APPNAME_SHORT
+Playlist Creator
+IDS_APPNAME_TINY
+Playlist Creator
+IDS_VERSION
+Version
+IDS_REVISION
+Revision
+IDS_COPYRIGHT
+Copyright © 2003-2010 oddgravity.
+IDS_ALL_RIGHTS_RESERVED
+Alle Rechte vorbehalten.
+IDS_LANGUAGE_DE
+deutsch
+IDS_LANGUAGE_EN
+englisch
+IDS_OK
+&Ok
+IDS_CANCEL
+&Abbrechen
+IDS_NEXT
+&Weiter >
+IDS_BACK
+< &Zurück
+IDS_ADD
+&Hinzufügen
+IDS_ADD_ARROW_LEFT
+<< &Hinzufügen
+IDS_ADD_ARROW_RIGHT
+&Hinzufügen >>
+IDS_REMOVE
+&Entfernen
+IDS_REMOVE_ARROW_LEFT
+<< &Entfernen
+IDS_REMOVE_ARROW_RIGHT
+&Entfernen >>
+IDS_DELETE
+&Löschen
+IDS_YES
+&Ja
+IDS_YES_TO_ALL
+Alle Ja
+IDS_NO
+&Nein
+IDS_NO_TO_ALL
+Alle Nein
+IDS_HELP
+Hilfe
+IDS_NEW
+&Neu
+IDS_MB_CAPTION_ATTENTION
+Achtung
+IDS_MB_CAPTION_WARNING
+Warnung
+IDS_MB_CAPTION_ERROR
+Fehler
+IDS_MB_CAPTION_INFO
+Hinweis
+IDS_MB_CAPTION_QUESTION
+Frage
+IDS_COLOR_PICKER_POPUP_DEFAULT
+Standardfarbe
+IDS_COLOR_PICKER_POPUP_CUSTOM
+Weitere Farben...
+IDS_GB_PLAYLIST_CONTENT
+Inhalt der Playlist
+IDS_PLAYLIST_CONTENT_INFO
+Fügen Sie die gewünschten Dateien entweder über die Schaltflächen auf der rechten Seite oder per 'Drag&&Drop' aus dem Windows Explorer hinzu:
+IDS_PLAYLIST_COLUMN_FILENAME
+Dateiname
+IDS_PLAYLIST_COLUMN_TYPE
+Typ
+IDS_PLAYLIST_COLUMN_FOLDER
+Verzeichnis
+IDS_BTN_ADD_FOLDER
+Ordner hinzufügen
+IDS_BTN_ADD_FILES
+Dateien hinzufügen
+IDS_BTN_ADD_PLAYLISTS
+Playlist hinzufügen
+IDS_BTN_MOVE_TO_TOP
+An den Anfang verschieben
+IDS_BTN_MOVE_UP
+Nach oben verschieben
+IDS_BTN_MOVE_DOWN
+Nach unten verschieben
+IDS_BTN_MOVE_TO_BOTTOM
+An das Ende verschieben
+IDS_BTN_DELETE_SEL_ITEMS
+Markierte Einträge entfernen
+IDS_BTN_DELETE_ALL_ITEMS
+Alle Einträge entfernen
+IDS_GB_PLAYLIST_CREATION
+Erstellung der Playlist
+IDS_PLAYLIST_SAVE_LOCATION
+Speicherort:
+IDS_BTN_SELECT_PLAYLIST_SAVE_LOCATION
+Speicherort auswählen
+IDS_PLAYLIST_NAME_AND_TYPE
+Name und Typ:
+IDS_BTN_CREATE_PLAYLIST
+Playlist &erstellen
+IDS_TOOLBAR_NEW_PLAYLIST
+ Neu  
+IDS_TOOLBAR_OPEN_PLAYLIST
+ Öffnen  
+IDS_TOOLBAR_SETTINGS
+ Einstellungen  
+IDS_TOOLBAR_HELP
+ Hilfe  
+IDS_TOOLBAR_ABOUT
+ Info  
+IDS_PROPSHEET_SETTINGS_TITLE
+Einstellungen
+IDS_PROPPAGE_GENERAL_SETTINGS_TITLE
+Allgemeine Einstellungen
+IDS_PROPPAGE_USER_INTERFACE_TITLE
+Benutzeroberfläche
+IDS_PROPPAGE_PLAYLIST_TITLE
+Playlist Details
+IDS_PROPPAGE_FILE_TYPES_TITLE
+Dateitypen
+IDS_PROPPAGE_EXT_INFO_TITLE
+Erweiterte Informationen
+IDS_PROPPAGE_DONATIONS_TITLE
+Spenden
+IDS_SETTINGS_GENERAL_GROUP_LANGUAGE
+Sprach-Einstellungen
+IDS_SETTINGS_GENERAL_LANGUAGE_INFO
+Aktuell ausgewählte Sprache:
+IDS_SETTINGS_GENERAL_GROUP_HIDDEN_MESSAGES
+Verborgene Meldungen
+IDS_SETTINGS_GENERAL_HIDDEN_MESSAGES_INFO
+Klicken Sie auf die folgende Schaltfläche, um alle Meldungen wieder anzuzeigen, welche durch Klicken auf "Meldung nicht mehr anzeigen" verborgen wurden.
+IDS_SETTINGS_GENERAL_BTN_HIDDEN_MESSAGES
+&Verborgene Meldungen wieder anzeigen...
+IDS_SETTINGS_GENERAL_ASK_SHOW_HIDDEN_MESSAGES
+Sollen die verborgenen Meldungen wieder angezeigt werden?\n\nSie können diese Meldungen später wieder verbergen.
+IDS_SETTINGS_GENERAL_GROUP_RESET_SETTINGS
+Einstellungen zurücksetzen
+IDS_SETTINGS_GENERAL_RESET_SETTINGS_INFO
+Klicken Sie auf die folgende Schaltfläche, um alle Einstellungen auf den Originalzustand zurückzusetzen. Vorsicht - alle persönlichen Einstellungen gehen verloren!
+IDS_SETTINGS_GENERAL_BTN_RESET_SETTINGS
+Einstellungen &zurücksetzen...
+IDS_SETTINGS_GENERAL_GROUP_UPDATE
+Update
+IDS_SETTINGS_GENERAL_AUTO_UPDATE_CHECK
+Prüfe jede Woche auf neue Versionen
+IDS_SETTINGS_GENERAL_BTN_CHECK_NOW
+Jetzt &prüfen
+IDS_SETTINGS_UI_GROUP_GENERAL
+Allgemeine Einstellungen
+IDS_SETTINGS_UI_SINGLE_INSTANCE
+Nur eine Programminstanz zur selben Zeit erlauben
+IDS_SETTINGS_UI_TRANSPARENCY
+Hauptfenster halb-transparent anzeigen wenn inaktiv
+IDS_SETTINGS_UI_SNAP_TO_SCREEN_BORDER
+Am Bildschirmrand ausrichten
+IDS_SETTINGS_UI_PLAY_SOUND_SUCCESS
+Sound abspielen wenn Playlist erfolgreich erstellt wurde
+IDS_SETTINGS_UI_GROUP_PLAYLIST
+Playlist
+IDS_SETTINGS_UI_SHOW_GRIDLINES
+Gitternetzlinien anzeigen
+IDS_SETTINGS_UI_SHOW_ALTERNATE_ROW_COLOR
+Jeden zweiten Eintrag farblich hervorheben
+IDS_SETTINGS_UI_HIGHLIGHT_MISSING_ITEMS
+Einträge markieren die auf nicht existierende Dateien verweisen
+IDS_SETTINGS_PLAYLIST_GROUP_NEW_ENTRIES
+Hinzufügen von Playlist Einträgen
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_INFO
+Geben Sie an, an welcher Stelle neue Einträge in die Playlist eingefügt werden sollen. Diese Einstellung gilt NICHT für Einträge, die mittels 'Drag&&Drop' eingefügt werden.
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_TOP
+Am Anfang der Liste
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_BOTTOM
+Am Ende der Liste
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_BEFORESEL
+Vor dem ersten markierten Eintrag (oder am Ende)
+IDS_SETTINGS_PLAYLIST_NEW_ENTRIES_AFTERSEL
+Nach dem ersten markierten Eintrag (oder am Ende)
+IDS_SETTINGS_PLAYLIST_SORT_NEW_ITEMS
+Neue Einträge in aufsteigender Reihenfolge einfügen
+IDS_SETTINGS_PLAYLIST_GROUP_SAVE_MODE
+Speichern von Playlist Einträgen
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_INFO
+Möchten Sie die Playlist Einträge absolut oder relativ speichern?
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_ABSOLUTE
+Absolut (z.B. "C:\MeineMusik\MeinLied.mp3")
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_ABSOLUTE_NODRIVE
+Absolut, ohne Laufwerk (z.B. "\MeineMusik\MeinLied.mp3")
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_RELATIVE
+Relativ (z.B. "..\MeineMusik\MeinLied.mp3")
+IDS_SETTINGS_PLAYLIST_SAVE_MODE_SLASH_STYLE
+Schrägstriche anstelle von umgekehrten Schrägstrichen verwenden
+IDS_SETTINGS_PLAYLIST_GROUP_MISC
+Weitere Einstellungen
+IDS_SETTINGS_PLAYLIST_MISC_AUTO_NAME
+Name des zuletzt hinzugefügten Ordners als Name der Playlist verwenden
+IDS_SETTINGS_PLAYLIST_MISC_AUTO_FOLDER
+Zuletzt hinzugefügten Ordner als Speicherort der Playlist verwenden
+IDS_SETTINGS_PLAYLIST_MISC_AUTO_CLEAR
+Playlist nach erfolgreicher Erstellung zurücksetzen
+IDS_SETTINGS_FILE_TYPES_GROUP
+Auswahl der aktiven Dateitypen
+IDS_SETTINGS_FILE_TYPES_INFO
+Alle Dateitypen, welche sich in der Liste der aktiven Dateitypen befinden, können der Playlist hinzugefügt werden. Sollte der von Ihnen gewünschte Dateityp fehlen, kann dieser durch Eingabe des Typs und Klick auf "Neu" erzeugt werden.
+IDS_SETTINGS_FILE_TYPES_ACTIVE
+Aktiv
+IDS_SETTINGS_FILE_TYPES_INACTIVE
+Inaktiv
+IDS_SETTINGS_FILE_TYPES_ADD
+Ausgewählten Dateityp hinzufügen
+IDS_SETTINGS_FILE_TYPES_REMOVE
+Ausgewählten Dateityp entfernen
+IDS_SETTINGS_FILE_TYPES_NEW_TITLE
+Neuer Dateityp:
+IDS_SETTINGS_FILE_TYPES_DELETE_TITLE
+Dateityp löschen:
+IDS_SETTINGS_FILE_TYPES_RESET_TITLE
+Dateitypen zurücksetzen:
+IDS_SETTINGS_FILE_TYPES_RESET
+&Zurücksetzen...
+IDS_SETTINGS_FILE_TYPES_ASK_RESET
+Möchten Sie die aktiven und inaktiven Dateitypen wirklich zurücksetzen?
+IDS_SETTINGS_FILE_TYPES_OPEN_PLAYLISTS
+Liste der aktiven Dateitypen auch beim Öffnen von Playlisten anwenden
+IDS_SETTINGS_EXT_INFO_GROUP_PROCESSING
+Verarbeitung von erweiterten Informationen
+IDS_SETTINGS_EXT_INFO_PROCESSING_INFO
+Entscheiden Sie, ob eine einfache Playlist (d.h. simple Liste der Dateien) oder eine Playlist mit erweiterten Informationen erzeugt werden soll.
+IDS_SETTINGS_EXT_INFO_WRITE_EXT_INFO
+Erweiterte Informationen schreiben
+IDS_SETTINGS_EXT_INFO_READ_TAGS
+Daten von Tags auslesen (zeitintensiv)
+IDS_SETTINGS_EXT_INFO_GROUP_TITLE_FORMAT
+Titelformat
+IDS_SETTINGS_EXT_INFO_TITLE_MASK_INFO
+Definieren Sie hier das Titelformat von Playlisten mit erweiterten Informationen. Geben Sie beliebigen Text ein, oder erzeugen Sie mittels der Variablen dynamische Titel.
+IDS_SETTINGS_EXT_INFO_TITLE_MASK
+Titelmaske:
+IDS_SETTINGS_EXT_INFO_TITLE_MASK_PREVIEW
+Vorschau:
+IDS_SETTINGS_EXT_INFO_TITLE_VARIABLES
+Titelvariablen:
+IDS_SETTINGS_EXT_INFO_VARIABLE_ARTIST
+Artist
+IDS_SETTINGS_EXT_INFO_VARIABLE_TITLE
+Titel
+IDS_SETTINGS_EXT_INFO_VARIABLE_ALBUM
+Album
+IDS_SETTINGS_EXT_INFO_VARIABLE_YEAR
+Jahr
+IDS_SETTINGS_EXT_INFO_VARIABLE_GENRE
+Genre
+IDS_SETTINGS_EXT_INFO_VARIABLE_TRACK
+Lied #
+IDS_SETTINGS_EXT_INFO_VARIABLE_SAMPLE_TITLE
+Beispiel:
+IDS_SETTINGS_EXT_INFO_VARIABLE_SAMPLE
+%3 - %2  =  <Album> - <Titel>
+IDS_SETTINGS_DONATIONS_GROUP_WHY
+Warum sollte ich Geld spenden?
+IDS_SETTINGS_DONATIONS_WHY_INFO
+Dieses Programm wurde in meiner Freizeit entwickelt. Ich veröffentliche es jedoch als Freeware, als mein Geschenk an die Online-Community. Das Programm ist somit kostenlos und enthält keinerlei funktionelle Einschränkungen.\n\nDurch eine Spende können Sie Ihre Anerkennung für <APPLICATION/> zeigen und die zukünftige Entwicklung unterstützen.\n\nVielen Dank!
+IDS_SETTINGS_DONATIONS_GROUP_HOW
+Wie kann ich Geld spenden?
+IDS_SETTINGS_DONATIONS_HOW_INFO
+Besuchen Sie meine Website für weitere Informationen oder folgen Sie dem direkten Link zu meiner PayPal-Spendenseite (256-Bit AES-Verschlüsselung).
+IDS_SETTINGS_DONATIONS_BTN_WEBSITE
+Website besuchen...
+IDS_URL_DONATIONS_WEBSITE
+http://www.oddgravity.de/donations.php
+IDS_SETTINGS_DONATIONS_BTN_PAYPAL
+PayPal besuchen...
+IDS_URL_DONATIONS_PAYPAL
+https://www.paypal.com/xclick/business=donation%40oddgravity.de&item_name=Spende+fuer+<APPLICATION/>&no_shipping=1&cn=Nachricht+an+oddgravity&tax=0&currency_code=EUR&lc=DE
+IDS_SETTINGS_DONATIONS_GROUP_USAGE
+Verwende ich das Programm regelmäßig?
+IDS_SETTINGS_DONATIONS_USAGE_INFO1
+Sie haben bisher <TOTAL_PLAYLISTS/> Playlisten mit insgesamt <TOTAL_SONGS/> Liedern erstellt.
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_PHASE1
+Also erstellen Sie schnell ein paar Playlisten und lungern Sie nicht hier herum!
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_PHASE2
+Das Programm scheint Ihnen zu gefallen. Sie sollten in einer ruhigen Minute über eine Spende nachdenken.
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_PHASE3
+Sie benutzen das Programm sehr häufig. Denken Sie nicht auch, dass ich eine Spende verdient habe?! :-)
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_STRANGE_VALUES
+Wenn Sie mich fragen hat da jemand an der Registry rumgefummelt! :-)
+IDS_SETTINGS_DONATIONS_USAGE_INFO2_IS_SUPPORTER
+Vielen Dank für Ihre Spende! Ich wünsche Ihnen weiterhin viel Spaß mit dem Programm.
+IDS_SELECT_FOLDER_TITLE
+Ordner auswählen
+IDS_SELECT_FILES_TITLE
+Dateien auswählen
+IDS_SELECT_PLAYLISTS_TITLE
+Playlist auswählen
+IDS_SELECT_SONG_FOLDER_INFO
+Bitte wählen Sie den Ordner aus, den Sie zur Playlist hinzufügen möchten:
+IDS_SELECT_PLAYLIST_FOLDER_INFO
+Bitte wählen Sie den Speicherort der Playlist aus:
+IDS_FILES
+Dateien
+IDS_PLAYLIST_FILES
+Playlist Dateien
+IDS_ALL_FILES
+Alle Dateien
+IDS_MB_DELETE_ALL_ITEMS
+Möchten Sie wirklich alle Einträge der Playlist entfernen?\n\nVorsicht: Dieser Vorgang kann nicht rückgängig gemacht werden!
+IDS_MB_ERR_NO_ACTIVE_FILE_TYPES
+Der Playlist können keine Dateien hinzugefügt werden, da keine aktiven\nDateitypen ausgewählt sind.\n\nBitte fügen Sie den aktiven Dateitypen unter "Einstellungen >> Dateitypen"\nmindestens einen Eintrag hinzu.
+IDS_MB_LAST_ACTIVE_FILE_TYPE_REMOVED
+Wenn keine aktiven Dateitypen ausgewählt sind, können der Playlist\nkeine weiteren Dateien hinzugefügt werden.\n\nBitte fügen Sie der Liste der aktiven Dateitypen mindestens einen\nEintrag hinzu.
+IDS_MB_ERR_EMPTY_NEW_FILE_TYPE
+Bitte geben Sie den Namen des Dateityps ein,\nden Sie zur Liste hinzufügen möchten.
+IDS_MB_ERR_INVALID_FILE_TYPE
+Der von Ihnen eingegebene Dateityp enthält ungültige Zeichen.\n\nFolgende Zeichen dürfen nicht verwendet werden: \ / . : * ? " < > |
+IDS_MB_ERR_FILE_TYPE_EXISTS
+Der von Ihnen eingegebene Dateityp existiert bereits.
+IDS_MB_ERR_IS_PLAYLIST_FILE_TYPE
+Playlist Dateitypen können nicht zur Liste der aktiven oder inaktiven Dateitypen hinzugefügt werden.\n\nDiese Dateitypen sind immer aktiv und werden von der Anwendung intern verwaltet.\nPlaylist Dateitypen sind beispielsweise 'pls' oder 'm3u'.
+IDS_MB_ERR_NO_FILE_TYPE_SELECTED
+Bitte wählen Sie zuerst den inaktiven Dateityp aus,\nden Sie von der Liste löschen möchten.
+IDS_MB_RESET_SETTINGS
+Möchten Sie wirklich alle Einstellungen zurücksetzen?\n\nVorsicht: Hierbei gehen alle persönlichen Einstellungen verloren!
+IDS_CREATEDLG_TITLE
+Playlist wird erstellt
+IDS_CREATEDLG_DETAIL_TITLE
+Die von Ihnen zusammengestellte Playlist wird nun erstellt
+IDS_CREATEDLG_CONTENT
+Dieser Vorgang kann je nach Größe der Playlist von wenigen Sekunden bis zu einigen Minuten dauern. Bitte warten...
+IDS_CREATEDLG_DONATIONS_LINK
+Vielen Dank für die Verwendung von <APPLICATION/>. Bitte unterstützen\nSie unsere zukünftigen Entwicklungsarbeiten mit einer Spende.
+IDS_CREATEDLG_STATUS_TITLE
+Status der Erstellung:
+IDS_CREATEDLG_STEP_PREPARE
+Letzte Vorbereitungen werden durchgeführt
+IDS_CREATEDLG_STEP_CREATE
+Playlist wird erstellt
+IDS_CREATEDLG_STEP_FINISH
+Die Erstellung der Playlist wird abgeschlossen
+IDS_CREATEDLG_CHECK_AUTOCLOSE
+Dialog nach erfolgreicher Erstellung schließen
+IDS_CREATEDLG_CREATION_CANCELLED
+Die Erstellung der Playlist wurde abgebrochen
+IDS_CREATEDLG_PROGRESS_INFO_PREPARE
+Letzte Vorbereitungen werden durchgeführt
+IDS_CREATEDLG_PROGRESS_INFO_CREATE
+<NUMBER/> von <TOTAL/> Dateien verarbeitet
+IDS_CREATEDLG_PROGRESS_INFO_FINISH
+Erstellung der Playlist wird abgeschlossen
+IDS_CREATEDLG_PROGRESS_INFO_COMPLETED
+Playlist wurde erfolgreich erstellt
+IDS_MB_ERR_CREATE_PLAYLIST
+Beim Erstellen der Playlist ist ein Fehler aufgetreten.
+IDS_MB_ERR_INVALID_PLAYLIST_FORMAT
+Es wurde ein ungültiges Playlistformat erkannt.\n\nBitte starten Sie die Anwendung neu und wiederholen Sie den Vorgang.
+IDS_MB_ERR_CREATE_PLAYLIST_FOLDER
+Das Verzeichnis in welchem die Playlist erstellt werden soll konnte nicht\nangelegt werden.\n\nBitte beenden Sie alle anderen Anwendungen und wiederholen Sie den Vorgang.
+IDS_MB_ERR_OPEN_PLAYLIST_FILE
+Die Playlist-Datei konnte nicht erzeugt werden.\n\nBitte beenden Sie alle anderen Anwendungen und wiederholen Sie den Vorgang.
+IDS_MB_CANCEL_PLAYLIST_CREATION
+Möchten Sie die Erstellung der Playlist wirklich abbrechen?
+IDS_MB_EMPTY_PLAYLIST
+Die Playlist ist momentan leer.\n\nBitte fügen Sie der Playlist mindestens einen Eintrag hinzu.
+IDS_MB_EMPTY_PLAYLIST_FOLDER
+Bitte wählen Sie einen Speicherort für die Playlist aus.
+IDS_MB_EMPTY_PLAYLIST_NAME
+Bitte geben Sie einen Namen für die Playlist ein.
+IDS_MB_INVALID_PLAYLIST_NAME
+Der Name der Playlist enthält ungültige Zeichen.\n\nFolgende Zeichen dürfen nicht verwendet werden: \ / . : * ? " < > |
+IDS_MB_PLAYLIST_FOLDER_DOES_NOT_EXIST
+Das Verzeichnis "<FOLDER/>",\nin welchem die Playlist erzeugt werden soll, existiert nicht.\n\nSoll dieses Verzeichnis angelegt werden?\n\nKlicken Sie auf 'Ja' um fortzufahren oder auf 'Nein' um einen anderen Speicherort auszuwählen.
+IDS_MB_PLAYLIST_ALREADY_EXISTS
+Die Datei "<FILEPATH/>" extistiert bereits.\n\nMöchten Sie diese Datei überschreiben?
+IDS_ABOUTBOX_CAPTION
+Info über <APPLICATION/>
+IDS_ABOUTBOX_BTN_WEBSITE
+&Website besuchen...
+IDS_ITEM_COUNT
+<NUMBER/> Einträge
+IDS_SELECTED_ITEM_COUNT
+<NUMBER/> Einträge markiert
+IDS_MB_ABORT
+&Beenden
+IDS_MB_CANCEL
+Abbrechen
+IDS_MB_CONTINUE
+W&eiter
+IDS_MB_DONOTASKAGAIN
+Diese &Frage nicht mehr stellen
+IDS_MB_DONOTTELLAGAIN
+Diese &Meldung nicht mehr anzeigen
+IDS_MB_DONOTSHOWAGAIN
+Diese &Meldung nicht mehr anzeigen
+IDS_MB_HELP
+&Hilfe
+IDS_MB_IGNORE
+&Ignorieren
+IDS_MB_IGNOREALL
+Alle i&gnorieren
+IDS_MB_NO
+&Nein
+IDS_MB_NOTOALL
+Alle n&ein
+IDS_MB_OK
+Ok
+IDS_MB_REPORT
+De&tails
+IDS_MB_RETRY
+&Wiederholen
+IDS_MB_SKIP
+Über&springen
+IDS_MB_SKIPALL
+Alle übers&pringen
+IDS_MB_TRYAGAIN
+Erneut &versuchen
+IDS_MB_YES
+&Ja
+IDS_MB_YESTOALL
+Alle j&a
+IDS_INFO_PLAYLIST_IS_EMPTY
+Die Playlist ist momentan leer.\nBitte fügen Sie der Playlist mindestens einen Eintrag hinzu.
+IDS_POPUP_MOVE_TO_TOP
+An den Anfang verschieben\tStrg+Pos1
+IDS_POPUP_MOVE_UP
+Nach oben verschieben\tStrg+Hoch
+IDS_POPUP_MOVE_DOWN
+Nach unten verschieben\tStrg+Runter
+IDS_POPUP_MOVE_TO_BOTTOM
+An das Ende verschieben\tStrg+Ende
+IDS_POPUP_DELETE_SELECTED
+Markierte Einträge entfernen\tStrg+Entf
+IDS_POPUP_DELETE_ALL
+Alle Einträge entfernen\tStrg+Shift+Entf
+IDS_POPUP_REFRESH_ITEM_STATE
+Status aktualisieren\tF5
+IDS_POPUP_SET_PLAYLIST_SAVE_LOCATION
+Verzeichnis als Speicherort der Playlist verwenden
+IDS_POPUP_SHUFFLE_PLAYLIST
+Einträge der Playlist zufällig anordnen
+IDS_SETTINGS_RESTART_NEEDED
+<APPLICATION/> muss neu gestartet werden,\ndamit alle Änderungen wirksam werden.
+IDS_SYSMENU_ABOUT
+Info über <APPLICATION/>...
+IDS_ASK_CREATE_NEW_PLAYLIST
+Möchten Sie wirklich eine neue Playlist anlegen?\n\nHinweis: Nicht gespeicherte Änderungen an der aktuellen\nPlaylist gehen verloren.
+IDS_ASK_OPEN_PLAYLIST
+Möchten Sie wirklich eine bestehende Playlist öffnen?\n\nHinweis: Nicht gespeicherte Änderungen an der aktuellen\nPlaylist gehen verloren.
+IDS_ASK_SHUFFLE_PLAYLIST
+Möchten Sie die Einträge der Playlist wirklich zufällig anordnen?
+IDS_WAITDLG_INFO_HEADING
+Bitte warten...
+IDS_WAITDLG_INFO_DETAILS
+Die ausgewählten Dateien werden zur Playlist hinzugefügt.
+IDS_WAITDLG_PI_EXPAND_FOLDERS
+Dateien werden gesammelt...
+IDS_WAITDLG_PI_OPEN_PLAYLIST
+Playlist wird geöffnet und eingelesen...
+IDS_WAITDLG_PI_FILES_ADDED
+<NUMBER/> Dateien bereits hinzugefügt...
+IDS_WAITDLG_CANCEL
+Möchten Sie wirklich abbrechen?
+IDS_FOLDERDLG_ADD_RECURSIVE
+Ordner rekursiv hinzufügen
+IDS_TB_BTN_NEW_PLAYLIST
+Neue leere Playlist
+IDS_TB_BTN_OPEN_PLAYLIST
+Bestehende Playlist öffnen
+IDS_SELECT_PLAYLIST
+Playlist auswählen
+IDS_ASK_OPEN_OR_INSERT_PLAYLIST
+Möchten Sie die Playlist öffnen oder einfügen?\n\nKlicken Sie auf 'Öffnen', um die Playlist zu editieren. Bitte beachten Sie, dass die momentane Playlist verworfen wird!\n\nKlicken Sie auf 'Einfügen', um den Inhalt der Playlist an der ausgewählten Stelle einzufügen. Die momentane Playlist wird also um den Inhalt dieser Playlist ergänzt.
+IDS_ASK_OPEN_OR_INSERT_PLAYLIST_CUSTOM_BUTTONS
+Ö&ffnen\n&Einfügen\n&Abbrechen
+IDS_EDIT_PROMPT_PLAYLIST_NAME
+<Name der Playlist eingeben>
+IDS_TT_ITEM_DOESNT_EXIST
+Warnung: Dieser Playlisteintrag verweist auf eine nicht existierende Datei!
+IDS_UPDATEDLG_INFO_HEADING
+Auf Aktualisierungen prüfen...
+IDS_UPDATEDLG_INFO_DETAILS
+Überprüfe, ob eine neue Version von <APPLICATION/> zur Verfügung steht.
+IDS_UPDATEDLG_YOUR_VERSION_INFO
+Ihre Version ist:
+IDS_UPDATEDLG_CURRENT_VERSION_INFO
+Aktuelle Version ist:
+IDS_UPDATECHECK_NETERROR
+Suche nach einer neuen Version fehlgeschlagen!
+IDS_UPDATECHECK_YOURUPTODATE
+Sie haben bereits die neueste Version installiert.
+IDS_UPDATECHECK_NEWERVERSIONAVAILABLE
+Eine neue Version von <APPLICATION/> steht zur Verfügung. Bitte besuchen Sie unsere Website, um die aktuelle Version herunterzuladen!
+IDS_UPDATECHECK_GOTO_WEBSITE_LINK
+Klicken Sie hier, um zur Website zu gelangen
