@@ -1,5 +1,6 @@
 # PlaylistCreator
-PlaylistCreator from oddgravity released to the general public.
+PlaylistCreator is the classical one-trick pony: Creates playlists - no more, no less.
+Originally developed from oddgravity, now released to the general public.
 
 Be aware that the codebase is rather old and uses C++ with MFC (Microsoft Foundation Classes). As for the IDE Visual Studio 2008 was used.
 
@@ -7,3 +8,11 @@ So if somebody wants to pick up development I would recommend to do a rewrite in
 
 Cheers
 Michael
+
+## System Environment
+* IDE: Microsoft Visual Studio 2008
+* Language: C++ with MFC (Microsoft Foundation Classes)
+* Installer: NSIS
+
+## License
+PlaylistCreator is MIT-licensed.
