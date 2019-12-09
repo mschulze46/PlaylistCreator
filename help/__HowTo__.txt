@@ -1,0 +1,31 @@
+==============
+==  How To  ==
+==============
+
+Link to: Htmlhelp.lib
+Include: Htmlhelp.h
+
+(Both of these files are installed on your system when you install 'HTML Help Workshop')
+
+
+Call example:
+
+BOOL CMySampleDlg::OnHelpInfo(HELPINFO* pHelpInfo) 
+{
+	CString strFilePath = GetExeFilePath();
+	if(strFilePath.IsEmpty())
+	{
+		ASSERT(0);
+		strFilePath = _T("PC3_") + CAppSettings::GetLanguageString().MakeUpper() + _T(".chm");
+	}
+	else
+	{
+		strFilePath.Replace(_T(".exe"), _T("_"));
+		strFilePath += CAppSettings::GetLanguageString().MakeUpper() + _T(".chm");
+	}
+
+	::HtmlHelp(::GetDesktopWindow(), strFilePath, HH_DISPLAY_TOPIC, 0);
+
+	return TRUE;
+	//return CDialog::OnHelpInfo(pHelpInfo);
+}

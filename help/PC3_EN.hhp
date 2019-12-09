@@ -1,0 +1,22 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=PC3_EN.chm
+Contents file=PC3_TOC_EN.hhc
+Default Font=Verdana,8,0
+Default topic=EN\index.htm
+Display compile progress=Yes
+Language=0x809 English (United Kingdom)
+Title=Playlist Creator 3.6.2 - Help
+
+
+[FILES]
+EN\copyright.htm
+EN\howto.htm
+EN\index.htm
+EN\shortcuts.htm
+EN\support.htm
+res\companylogo.png
+res\help.png
+
+[INFOTYPES]
+

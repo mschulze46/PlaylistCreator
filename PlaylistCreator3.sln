@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlaylistCreator3", "projects\PlaylistCreator3\PlaylistCreator3.vcproj", "{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CxImage", "..\oddgravitysdk\cximage\CxImage\cximage.vcproj", "{9F3C761D-47D3-4682-9FCD-F113671A5E90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Static|Win32 = Debug Static|Win32
+		Debug|Win32 = Debug|Win32
+		Release Static|Win32 = Release Static|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}.Debug Static|Win32.ActiveCfg = Debug|Win32
+		{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}.Debug Static|Win32.Build.0 = Debug|Win32
+		{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}.Debug|Win32.Build.0 = Debug|Win32
+		{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}.Release Static|Win32.ActiveCfg = Release|Win32
+		{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}.Release Static|Win32.Build.0 = Release|Win32
+		{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}.Release|Win32.ActiveCfg = Release|Win32
+		{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}.Release|Win32.Build.0 = Release|Win32
+		{9F3C761D-47D3-4682-9FCD-F113671A5E90}.Debug Static|Win32.ActiveCfg = Debug|Win32
+		{9F3C761D-47D3-4682-9FCD-F113671A5E90}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F3C761D-47D3-4682-9FCD-F113671A5E90}.Release Static|Win32.ActiveCfg = Release|Win32
+		{9F3C761D-47D3-4682-9FCD-F113671A5E90}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

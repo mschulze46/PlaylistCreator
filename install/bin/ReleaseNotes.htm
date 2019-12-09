@@ -1,0 +1,223 @@
+<html>
+
+<head>
+  <title>Playlist Creator - Release Notes</title>
+
+  <style type="text/css">
+  <!--
+
+  body
+  {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+
+  h1, h3, h4  { margin-bottom: .4em; margin-top: 1em; }
+  h1  { font-size: 120%; margin-top: 0em; }
+  h3  { font-size: 115%; }
+  h4  { font-size: 100%; }
+
+  p   { margin: 0px 0px 0px 0px; }
+
+  ul  { margin-top: 8px; }
+  li  { padding-bottom: 4px; margin-left: 5px; list-style-type: circle; }
+
+  div#banner
+  {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border-width: 0px;
+    border-bottom: 1px solid #999999;
+    padding: 1px 0px 0px 0px;
+    background-color: #99ccff;
+  }
+
+  div#banner h1
+  {
+    margin: 0px 0px 0px 0px;
+    border-width: 0px;
+    padding: .1em .4em .3em .5em;
+    background-color: #99ccff;
+  }
+
+  div#header
+  {
+    margin: 0px 0px 0px 0px;
+    border-width: 0px;
+    padding: .3em .4em 0 .3em;
+    background-color: #99ccff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  div#content
+  {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  div#title
+  {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  -->
+  </style>
+
+</head>
+
+<body>
+  <div id="banner">
+    <div id="header">Playlist Creator</div>
+    <h1>Summary of changes and additions</h1>
+  </div> <!-- banner -->
+
+  <div id="content">
+    <div>&nbsp;</div>
+
+    <div id="title">Release Notes<br></div>
+
+    <div><br><b>Version: 3.6.2, Released: 2010-01-15</b></div>
+    <ul>
+      <li>New: During long running processes (e.g. playlist creation) the progress is displayed in the taskbar icon (Windows 7)</li>
+      <li>New: Settings checkbox for inserting new entries in ascending order</li>
+      <li>Changed: Use system built-in header sort arrows instead of custom graphics (Windows XP, Vista, 7)</li>
+      <li>Changed: New icons for create playlist dialog</li>
+      <li>Changed: Improved look and feel of playlist context menu</li>
+      <li>Changed: Improved look and feel of 'File Types' settings dialog</li>
+      <li>Changed: Display the full version number of the application in all places</li>
+      <li>Changed: Integrated latest MediaInfoDLL (v0.7.27)</li>
+      <li>Fixed: Drag and drop doesn't work when application is started by the auto-start feature of the installer (Windows Vista, 7)</li>
+      <li>Fixed: Folder selection dialog doesn't scroll to last selected folder (Windows 7)</li>
+    </ul>
+
+    <div><br><b>Version: 3.6.1, Released: 2009-10-15</b></div>
+    <ul>
+      <li>New: Added Vista compatible application icon</li>
+      <li>Changed: New look and feel for the displayed message boxes</li>
+      <li>Changed: Minor changes of look and feel of update check dialog</li>
+      <li>Changed: Integrated latest MediaInfoDLL (v0.7.22)</li>
+      <li>Fixed: Folder selection dialog is not working (Windows 7)</li>
+      <li>Fixed: When adding items via drag and drop the items are not inserted in correct alphabetical order</li>
+      <li>Fixed: No hand cursor is displayed when hovering links (Windows Vista, 7)</li>
+      <li>Fixed: During uninstall the start menu items aren't deleted (Windows Vista, 7)</li>
+      <li>Fixed: Links in about dialog are not displayed correctly with activated ClearType or high DPI settings</li>
+    </ul>
+
+    <div><br><b>Version: 3.6.0, Released: 2009-06-25</b></div>
+    <ul>
+      <li>New: Tags (metadata) can now be read from nearly all file types (e.g. mp3, ogg, flac, wma)</li>
+      <li>New: Playlist can be shuffled (randomized)</li>
+      <li>New: Option for creating simple playlists (i.e. plain file lists)</li>
+      <li>New: Application can check (automatically) for newer versions</li>
+      <li>New: Display keyboard shortcuts in the context menu</li>
+      <li>Changed: Support for id3lib was dropped (using MediaInfo instead)</li>
+      <li>Changed: Title length calculation was improved</li>
+      <li>Changed: Added some file types to the list of active/inactive file types (e.g. ape, mkv, mov)</li>
+      <li>Changed: The caption style of the settings property pages was changed (gradient instead of line)</li>
+      <li>Changed: Removed music from about dialog</li>
+    </ul>
+
+    <div><br><b>Version: 3.5.0, Released: 2007-07-31</b></div>
+    <ul>
+      <li>New: Existing playlist files can be opened and modified</li>
+      <li>New: Main dialog is resizable</li>
+      <li>New: Folders can be added recursively (i.e. the selected folder and all subfolders)</li>
+      <li>New: Multi-selection support for the playlist control (i.e. move / delete all selected items)</li>
+      <li>New: The columns of the playlist control can be sorted by clicking on the column header</li>
+      <li>New: The icon set was replaced with icons from Tango Desktop Project</li>
+      <li>New: Main dialog can optionally snap to the screen border</li>
+      <li>New: Playlist entries can be stored with forward or back slashes (can be combined with any save mode)</li>
+      <li>New: Playlist items which refer to nonexistent files can optionally be highlighted</li>
+      <li>New: List of active file types can optionally be applied when opening playlists</li>
+      <li>New: Additional settings property page: User Interface</li>
+      <li>New: Playlist control can optionally display gridlines</li>
+      <li>New: The alternating row color of the playlist control can be changed or turned off</li>
+      <li>New: It's possible to display the hidden messages again</li>
+      <li>New: Additional toolbar button for creating a new empty playlist</li>
+      <li>New: Drag and drop: The exact insertion point is displayed with an insertion line</li>
+      <li>New: Buttons for moving the selected items to the top / bottom of the playlist</li>
+      <li>New: Statusbar with resize gripper, showing the total number and the number of selected items</li>
+      <li>New: A context menu pops up when right-clicking on the playlist control</li>
+      <li>New: An input prompt is displayed in the playlist name editbox</li>
+      <li>New: When the playlist is empty a message is displayed in the playlist control</li>
+      <li>New: Additional keyboard shortcuts (e.g. select all, move to top / bottom)</li>
+      <li>New: Buttons are disabled if the specific functionality is currently not available</li>
+      <li>New: The lists of active / inactive file types can be resetted</li>
+      <li>New: Added the file type 'flac' to the default active file types</li>
+      <li>New: Settings dialog remembers the last active property page</li>
+      <li>New: During playlist creation the currently processed step is displayed with bold font</li>
+      <li>New: Tooltips are displayed for certain toolbar buttons</li>
+      <li>Reworked: Improved user interface responsiveness when handling big playlists</li>
+      <li>Changed: Moved 'Set as playlist save location' functionality to the context menu of the playlist control</li>
+      <li>Changed: Playlist file types cannot be added to the active / inactive file types (they are handled internally)</li>
+      <li>Changed: Some settings were moved to the new 'User Interface' properties page (e.g. single instance, transparency)</li>
+      <li>Changed: The default title mask is now '&lt;Artist&gt; - &lt;Track #&gt; - &lt;Title&gt;'</li>
+      <li>Changed: The default file filter of the add files select dialog is now 'All files (*.*)'</li>
+      <li>Fixed: Characters of playlist name textbox can become corrupted (thanks to Scott and Tony for testing!)</li>
+      <li>Fixed: If playlist and tracks are located in the same folder the prefix '.\' is added to the filenames (some players don't like it)</li>
+      <li>Fixed: When playlist folder doesn't exist, it's not possible to create a nested folder</li>
+      <li>Fixed: Restoring the last position of the application window isn't multimonitor aware</li>
+      <li>Fixed: The position of the drop graphic is not correct if the setting 'Show window contents while dragging' is off</li>
+      <li>Fixed: Drop graphic is shown until all files have been added</li>
+      <li>Fixed: The create playlist button loses its border when changing from XP styles to classic style</li>
+    </ul>
+
+    <div><br><b>Version: 3.0.3, Released: 2005-12-12</b></div>
+    <ul>
+      <li>New: Playlist creation dialog can automatically be closed after successful creation</li>
+      <li>New: 'Don't show again' checkbox for message box when removing all items from the playlist</li>
+      <li>New: 'Don't show again' checkbox for message box when overwriting an existing playlist</li>
+      <li>New: 'Don't show again' checkbox for message box when creating the folder of a playlist</li>
+      <li>Fixed: Application crashes during startup on systems using 16bpp desktop color depth</li>
+      <li>Fixed: New items are inserted at the wrong position if the first inserted items are of inactive types</li>
+      <li>Fixed: Selection is lost when inserting new items to the playlist (except for drag and drop)</li>
+      <li>Fixed: Transparency isn't turned off when dropping files on the playlist</li>
+    </ul>
+
+    <div><br><b>Version: 3.0.2, Released: 2005-08-30</b></div>
+    <ul>
+      <li>New: Option to clear the playlist automatically after it was created successfully</li>
+      <li>New: Additional save mode: Absolute, without drive (e.g. "\MyMusic\MySong.mp3")</li>
+      <li>New: Playlist buttons are disabled when playlist is empty</li>
+      <li>New: Additional keyboard shortcuts</li>
+      <li>New: Additional page in the Online Help with a table of all keyboard shortcuts</li>
+      <li>Reworked: Increased the accuracy of the title length calculation</li>
+      <li>Reworked: Improved the performance of the user interface when handling very big playlists</li>
+      <li>Changed: Some user interface changes in the settings dialog</li>
+      <li>Fixed: Automatic filling of playlist name and save location does not work after files were added via drag and drop</li>
+      <li>Fixed: Some controls are not using the default font</li>
+      <li>Fixed: About box caption is English in the German version</li>
+      <li>Fixed: Drawing and clipping errors in the user interface when using large screen fonts</li>
+      <li>Fixed: Combobox for selecting the playlist type is missing the drop list style</li>
+    </ul>
+
+    <div><br><b>Version: 3.0.1, Released: 2005-05-08</b></div>
+    <ul>
+      <li>Changed: Minor changes in the Online Help</li>
+      <li>Fixed: It can occur that a playlist of type 'PLS' is created although 'M3U' is selected</li>
+      <li>Fixed: The static controls in the about box are not drawn correctly if ClearType is activated</li>
+    </ul>
+
+    <div><br><b>Version: 3.0.0, Released: 2005-04-17</b></div>
+    <ul>
+      <li>New: Complete GUI redesign</li>
+      <li>New: Drag and drop support</li>
+      <li>New: Support for any file types</li>
+      <li>New: Usage of the Open Source library id3lib</li>
+      <li>New: Increased the performance of playlist creation dramatically</li>
+      <li>New: Support for dynamic titles</li>
+      <li>New: Completely overworked the Online Help</li>
+      <li>New: Several automatisms, e.g. automatic filling of the playlist name</li>
+    </ul>
+
+    <div><br><b>Version: 1.0 - 2.0 (removed)</b></div>
+    <br>
+  </div> <!-- content -->
+</body>
+</html>
