@@ -1,5 +1,5 @@
-# PlaylistCreator
-PlaylistCreator is the classical one-trick pony: Creates playlists - no more, no less.
+# Playlist Creator
+Playlist Creator is the classical one-trick pony: Creates playlists - no more, no less.
 Originally developed from oddgravity, now released to the general public.
 
 Be aware that the codebase is rather old and uses C++ with MFC (Microsoft Foundation Classes). As for the IDE Visual Studio 2008 was used.
@@ -15,4 +15,4 @@ Michael
 * Installer: NSIS
 
 ## License
-PlaylistCreator is MIT-licensed.
+Playlist Creator is MIT-licensed.
