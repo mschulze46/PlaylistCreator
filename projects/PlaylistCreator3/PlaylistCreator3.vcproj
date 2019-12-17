@@ -18,15 +18,15 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="o:\$(SolutionName)\$(ConfigurationName)"
-			IntermediateDirectory="o:\$(SolutionName)\$(ConfigurationName)\$(ProjectName)"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
 			UseOfMFC="1"
 			CharacterSet="2"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="../../batch/prebuild_d.bat"
+				CommandLine=""
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
@@ -46,7 +46,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="../../../oddgravitysdk/;../../../oddgravitysdk/cximage/"
+				AdditionalIncludeDirectories="../../oddgravitysdk/;../../oddgravitysdk/cximage/"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -69,7 +69,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="shlwapi.lib Winmm.lib Wininet.lib Htmlhelp.lib msimg32.lib ../../../oddgravitysdk/cximage/png/release/png.lib ../../../oddgravitysdk/cximage/zlib/release/zlib.lib ../../lib/cximage.lib"
+				AdditionalDependencies="shlwapi.lib Winmm.lib Wininet.lib Htmlhelp.lib msimg32.lib ../../oddgravitysdk/cximage/png/release/png.lib ../../oddgravitysdk/cximage/zlib/release/zlib.lib ../../lib/cximage.lib"
 				OutputFile="$(OutDir)/pc3.exe"
 				LinkIncremental="2"
 				DelayLoadDLLs="UxTheme.DLL"
@@ -99,7 +99,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="../../batch/postbuild_d.bat"
+				CommandLine=""
 			/>
 		</Configuration>
 		<Configuration
@@ -112,7 +112,7 @@
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="../../batch/prebuild_r.bat"
+				CommandLine=""
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
@@ -188,7 +188,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="../../batch/postbuild_r.bat"
+				CommandLine=""
 			/>
 		</Configuration>
 	</Configurations>
@@ -657,59 +657,59 @@
 			Name="oddgravitysdk"
 			>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.constants.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.constants.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.controls.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.controls.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.datetime.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.datetime.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.filesystem.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.filesystem.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.gdi.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.gdi.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.icons.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.icons.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.internet.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.internet.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.macros.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.macros.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.registry.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.registry.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.stl.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.stl.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.strings.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.strings.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.thread.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.thread.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\oddgravitysdk\oddgravitysdk.windows.h"
+				RelativePath="..\..\oddgravitysdk\oddgravitysdk.windows.h"
 				>
 			</File>
 		</Filter>
@@ -720,210 +720,210 @@
 				Name="Source Files"
 				>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\BCMenu.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\BCMenu.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\BtnST.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\BtnST.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\BufferDC.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\BufferDC.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\shared\Color.cpp"
+					RelativePath="..\..\oddgravitysdk\shared\Color.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\ColourPickerXP.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\ColourPickerXP.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\Debug.cpp"
+					RelativePath="..\..\oddgravitysdk\dialogs\Debug.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\DiskObject.cpp"
+					RelativePath="..\..\oddgravitysdk\system\DiskObject.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\FECFileDialog.cpp"
+					RelativePath="..\..\oddgravitysdk\dialogs\FECFileDialog.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\FileDropListCtrl.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\FileDropListCtrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\FolderDlg.cpp"
+					RelativePath="..\..\oddgravitysdk\dialogs\FolderDlg.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\GroupLine.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\GroupLine.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\HyperEdit.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\HyperEdit.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\HyperEdit2.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\HyperEdit2.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\HyperEdit3.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\HyperEdit3.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\HyperLink.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\HyperLink.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\HyperLinkWithIcons.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\HyperLinkWithIcons.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\KCSideBannerWnd.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\KCSideBannerWnd.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\MultiMon\Monitors.cpp"
+					RelativePath="..\..\oddgravitysdk\system\MultiMon\Monitors.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\MultiMon\MultiMonitor.cpp"
+					RelativePath="..\..\oddgravitysdk\system\MultiMon\MultiMonitor.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\filesystem\Path.cpp"
+					RelativePath="..\..\oddgravitysdk\filesystem\Path.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\PromptEdit.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\PromptEdit.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\ReportListCtrl.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\ReportListCtrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\SingleInstance.cpp"
+					RelativePath="..\..\oddgravitysdk\system\SingleInstance.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\SnapperDialog.cpp"
+					RelativePath="..\..\oddgravitysdk\dialogs\SnapperDialog.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\TaskDialogStatic.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\TaskDialogStatic.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\filesystem\TextFile.cpp"
+					RelativePath="..\..\oddgravitysdk\filesystem\TextFile.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\ThemeHelperST.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\ThemeHelperST.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\TileAnimationCtrl.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\TileAnimationCtrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\XMessageBox.cpp"
+					RelativePath="..\..\oddgravitysdk\dialogs\XMessageBox.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\xml\XMLite.cpp"
+					RelativePath="..\..\oddgravitysdk\xml\XMLite.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\XPStyleButtonST.cpp"
+					RelativePath="..\..\oddgravitysdk\controls\XPStyleButtonST.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\shared\XPTheme.cpp"
+					RelativePath="..\..\oddgravitysdk\shared\XPTheme.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\XWinVer.cpp"
+					RelativePath="..\..\oddgravitysdk\system\XWinVer.cpp"
 					>
 				</File>
 				<Filter
 					Name="TreePropSheetEx"
 					>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\hookwnd.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\hookwnd.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrame.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrame.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameBordered.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameBordered.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameDefault.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameDefault.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameEx.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameEx.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameOffice2003.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameOffice2003.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableGrip.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableGrip.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableLayout.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableLayout.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableMinMax.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableMinMax.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizablePage.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizablePage.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableState.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableState.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ThemeLibEx.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ThemeLibEx.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetBase.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetBase.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetBordered.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetBordered.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetEx.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetEx.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetOffice2003.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetOffice2003.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetResizableLibHook.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetResizableLibHook.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetSplitter.cpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetSplitter.cpp"
 						>
 					</File>
 				</Filter>
@@ -932,119 +932,119 @@
 				Name="Header Files"
 				>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\BCMenu.h"
+					RelativePath="..\..\oddgravitysdk\controls\BCMenu.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\BtnST.h"
+					RelativePath="..\..\oddgravitysdk\controls\BtnST.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\BufferDC.h"
+					RelativePath="..\..\oddgravitysdk\controls\BufferDC.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\shared\Color.h"
+					RelativePath="..\..\oddgravitysdk\shared\Color.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\ColourPickerXP.h"
+					RelativePath="..\..\oddgravitysdk\controls\ColourPickerXP.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\Debug.h"
+					RelativePath="..\..\oddgravitysdk\dialogs\Debug.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\DiskObject.h"
+					RelativePath="..\..\oddgravitysdk\system\DiskObject.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\EasySize.h"
+					RelativePath="..\..\oddgravitysdk\dialogs\EasySize.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\FECFileDialog.h"
+					RelativePath="..\..\oddgravitysdk\dialogs\FECFileDialog.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\FileDropListCtrl.h"
+					RelativePath="..\..\oddgravitysdk\controls\FileDropListCtrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\FolderDlg.h"
+					RelativePath="..\..\oddgravitysdk\dialogs\FolderDlg.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\GroupLine.h"
+					RelativePath="..\..\oddgravitysdk\controls\GroupLine.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\HyperEdit.h"
+					RelativePath="..\..\oddgravitysdk\controls\HyperEdit.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\HyperLink.h"
+					RelativePath="..\..\oddgravitysdk\controls\HyperLink.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\HyperLinkWithIcons.h"
+					RelativePath="..\..\oddgravitysdk\controls\HyperLinkWithIcons.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\KCSideBannerWnd.h"
+					RelativePath="..\..\oddgravitysdk\controls\KCSideBannerWnd.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\multimedia\MediaInfo\deployment\MediaInfoDLL.h"
+					RelativePath="..\..\oddgravitysdk\multimedia\MediaInfo\MediaInfoDLL.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\shared\MemDC.h"
+					RelativePath="..\..\oddgravitysdk\shared\MemDC.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\MultiMon\Monitors.h"
+					RelativePath="..\..\oddgravitysdk\system\MultiMon\Monitors.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\MultiMon\MultiMonitor.h"
+					RelativePath="..\..\oddgravitysdk\system\MultiMon\MultiMonitor.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\filesystem\Path.h"
+					RelativePath="..\..\oddgravitysdk\filesystem\Path.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\PromptEdit.h"
+					RelativePath="..\..\oddgravitysdk\controls\PromptEdit.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\ReportListCtrl.h"
+					RelativePath="..\..\oddgravitysdk\controls\ReportListCtrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\SingleInstance.h"
+					RelativePath="..\..\oddgravitysdk\system\SingleInstance.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\SnapperDialog.h"
+					RelativePath="..\..\oddgravitysdk\dialogs\SnapperDialog.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\TaskDialogStatic.h"
+					RelativePath="..\..\oddgravitysdk\controls\TaskDialogStatic.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\filesystem\TextFile.h"
+					RelativePath="..\..\oddgravitysdk\filesystem\TextFile.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\ThemeHelperST.h"
+					RelativePath="..\..\oddgravitysdk\controls\ThemeHelperST.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\TileAnimationCtrl.h"
+					RelativePath="..\..\oddgravitysdk\controls\TileAnimationCtrl.h"
 					>
 				</File>
 				<File
@@ -1052,118 +1052,118 @@
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\dialogs\XMessageBox.h"
+					RelativePath="..\..\oddgravitysdk\dialogs\XMessageBox.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\xml\XMLite.h"
+					RelativePath="..\..\oddgravitysdk\xml\XMLite.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\controls\XPStyleButtonST.h"
+					RelativePath="..\..\oddgravitysdk\controls\XPStyleButtonST.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\shared\XPTheme.h"
+					RelativePath="..\..\oddgravitysdk\shared\XPTheme.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\system\XWinVer.h"
+					RelativePath="..\..\oddgravitysdk\system\XWinVer.h"
 					>
 				</File>
 				<Filter
 					Name="TreePropSheetEx"
 					>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\HighColorTab.hpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\HighColorTab.hpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\hookwnd.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\hookwnd.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\memdc.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\memdc.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrame.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrame.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameBordered.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameBordered.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameDefault.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameDefault.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameEx.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameEx.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameOffice2003.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\PropPageFrameOffice2003.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableGrip.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableGrip.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableLayout.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableLayout.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableMinMax.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableMinMax.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableMsgSupport.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableMsgSupport.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableMsgSupport.inl"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableMsgSupport.inl"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizablePage.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizablePage.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableState.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ResizableState.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\ThemeLibEx.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\ThemeLibEx.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetBase.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetBase.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetBordered.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetBordered.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetEx.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetEx.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetOffice2003.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetOffice2003.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetResizableLibHook.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetResizableLibHook.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetSplitter.h"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetSplitter.h"
 						>
 					</File>
 					<File
-						RelativePath="..\..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetUtil.hpp"
+						RelativePath="..\..\oddgravitysdk\controls\TreePropSheetEx\TreePropSheetUtil.hpp"
 						>
 					</File>
 				</Filter>
@@ -1172,7 +1172,7 @@
 				Name="Resource Files"
 				>
 				<File
-					RelativePath="..\..\..\oddgravitysdk\multimedia\MediaInfo\deployment\MediaInfoDLL.def"
+					RelativePath="..\..\oddgravitysdk\multimedia\MediaInfo\MediaInfoDLL.def"
 					>
 				</File>
 			</Filter>

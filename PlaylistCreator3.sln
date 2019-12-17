@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlaylistCreator3", "projects\PlaylistCreator3\PlaylistCreator3.vcproj", "{02F1DE4E-50E5-40CC-8032-E0DEE226F9AB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CxImage", "..\oddgravitysdk\cximage\CxImage\cximage.vcproj", "{9F3C761D-47D3-4682-9FCD-F113671A5E90}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CxImage", "oddgravitysdk\cximage\CxImage\cximage.vcproj", "{9F3C761D-47D3-4682-9FCD-F113671A5E90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
