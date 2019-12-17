@@ -99,7 +99,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine=""
+				CommandLine="echo === POSTBUILD: START =======================&#x0D;&#x0A;xcopy &quot;$(SolutionDir)\dll\*.dll&quot; &quot;$(OutDir)&quot; /Y&#x0D;&#x0A;echo === POSTBUILD: END =========================&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -188,7 +188,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine=""
+				CommandLine="echo === POSTBUILD: START =======================&#x0D;&#x0A;xcopy &quot;$(SolutionDir)\dll\*.dll&quot; &quot;$(OutDir)&quot; /Y&#x0D;&#x0A;echo === POSTBUILD: END =========================&#x0D;&#x0A;"
 			/>
 		</Configuration>
 	</Configurations>

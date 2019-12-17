@@ -15,7 +15,7 @@
 #include "stdafx.h"
 #include "PlaylistCreator.h"
 #include "CreatePlaylistDlg.h"
-#include <multimedia/MediaInfo/deployment/MediaInfoDLL.h>
+#include <multimedia/MediaInfo/MediaInfoDLL.h>
 #include <filesystem/Path.h>
 
 using namespace MediaInfoDLL;
