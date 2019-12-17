@@ -23,9 +23,18 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Visual Studio temporary/user files
+*.aps
+*.ncb
+*.suo
+*.user
+
+# Build folders
+/bin
+/obj

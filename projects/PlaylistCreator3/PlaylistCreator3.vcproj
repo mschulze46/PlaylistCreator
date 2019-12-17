@@ -18,8 +18,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
-			IntermediateDirectory="$(ConfigurationName)"
+			OutputDirectory="$(SolutionDir)\bin\$(ConfigurationName)"
+			IntermediateDirectory="$(SolutionDir)\obj\$(ConfigurationName)"
 			ConfigurationType="1"
 			UseOfMFC="1"
 			CharacterSet="2"
@@ -69,7 +69,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="shlwapi.lib Winmm.lib Wininet.lib Htmlhelp.lib msimg32.lib ../../oddgravitysdk/cximage/png/release/png.lib ../../oddgravitysdk/cximage/zlib/release/zlib.lib ../../lib/cximage.lib"
+				AdditionalDependencies="shlwapi.lib Winmm.lib Wininet.lib Htmlhelp.lib msimg32.lib ../../lib/png.lib ../../lib/zlib.lib ../../lib/cximage.lib"
 				OutputFile="$(OutDir)/pc3.exe"
 				LinkIncremental="2"
 				DelayLoadDLLs="UxTheme.DLL"
@@ -104,8 +104,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="o:\$(SolutionName)\$(ConfigurationName)"
-			IntermediateDirectory="o:\$(SolutionName)\$(ConfigurationName)\$(ProjectName)"
+			OutputDirectory="$(SolutionDir)\bin\$(ConfigurationName)"
+			IntermediateDirectory="$(SolutionDir)\obj\$(ConfigurationName)"
 			ConfigurationType="1"
 			UseOfMFC="1"
 			CharacterSet="2"
@@ -132,7 +132,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				EnableIntrinsicFunctions="true"
-				AdditionalIncludeDirectories="../../../oddgravitysdk/;../../../oddgravitysdk/cximage/"
+				AdditionalIncludeDirectories="../../oddgravitysdk/;../../oddgravitysdk/cximage/"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG"
 				StringPooling="true"
 				MinimalRebuild="false"
@@ -156,7 +156,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="shlwapi.lib Winmm.lib Wininet.lib Htmlhelp.lib msimg32.lib ../../../oddgravitysdk/cximage/png/release/png.lib ../../../oddgravitysdk/cximage/zlib/release/zlib.lib ../../lib/cximage.lib"
+				AdditionalDependencies="shlwapi.lib Winmm.lib Wininet.lib Htmlhelp.lib msimg32.lib ../../lib/png.lib ../../lib/zlib.lib ../../lib/cximage.lib"
 				OutputFile="$(OutDir)/pc3.exe"
 				LinkIncremental="1"
 				DelayLoadDLLs="UxTheme.DLL"
