@@ -27,9 +27,15 @@ The following build environment was installed on a Windows 7 machine:
   * Open Visual Studio 2008
   * Goto: Tools > Options... > Projects and Solutions > VC++ Directories
   * Include files: Add Platform SDK include directory at first position
-    <C:\Program Files\Microsoft SDKs\Windows\v7.1\Include>
+    ```
+    C:\Program Files\Microsoft SDKs\Windows\v7.1\Include
+    ```
+    ![VS2008-WinSDK-1](https://github.com/mschulze46/PlaylistCreator/blob/master/docs/GettingStarted-VS2008-WinSDK-1.png "GettingStarted-VS2008-WinSDK-1")
   * Library files: Add Platform SDK library directory at first position
-    <C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib>
+    ```
+    C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib
+    ```
+    ![VS2008-WinSDK-2](https://github.com/mschulze46/PlaylistCreator/blob/master/docs/GettingStarted-VS2008-WinSDK-2.png "GettingStarted-VS2008-WinSDK-2")
 
 ## License
 Playlist Creator is MIT-licensed.
